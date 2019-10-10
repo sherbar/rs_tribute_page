@@ -25,9 +25,10 @@
         <h2> The Making of the Shining</h2>
       </div>
       <img class="splash" src="COMM_329/filming.png" alt="Stanley Kubrick films Jack Nicholson" />
+      <img class="splash" src="img/filming.png" alt="Stanley Kubrick films Jack Nicholson" />
     </header>
     <div id="first">
-      <img src="COMM_329/shining-poster" alt="The Shining Poster" />
+      <img src="img/shining-poster.png" alt="The Shining Poster" />
       <h2> Movie Poster</h2>
     </div>
     <div id="second">
