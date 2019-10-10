@@ -1,0 +1,21 @@
+:root {
+  --primary: #222;
+  --bg: #FOFOFO;
+  --text: #333;
+  --rev-text: #F0F0F0;
+  --dk-bg: #222;
+  --accent: #D66D36
+}
+body {
+  font-family: var(--font-stack);
+  color: var(--text);
+  font-size: 16px;
+
+}
+h1 {
+  font-size: 2em;
+  font-family: 'Lato', cursive;
+  color: var(--accent);
+
+}
+h2
