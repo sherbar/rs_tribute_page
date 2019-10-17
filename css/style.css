@@ -4,7 +4,7 @@
   --text: #333;
   --rev-text: #F0F0F0;
   --dk-bg: #222;
-  --accent: #D66D36
+  --accent: #D66D36;
 }
 body {
   font-family: var(--font-stack);
@@ -17,9 +17,36 @@ img {
   height: auto;
 }
 h1 {
-  font-size: 2em;
-  font-family: 'Lato', cursive;
+  font-size: 4em;
+  font-family: 'Mansalva', cursive;
   color: var(--accent);
 
 }
-h2
+h2 {
+  font-size: 1.8em;
+  font-weight: 800;
+}
+#first h2, #second h2, #third h2 {
+  text-align: center;
+  font-size: 1.2em;
+  padding-bottom: .25em;
+  border-bottom: 1px solid var(--accent);
+}
+main {
+  padding: 0 2em 2em 2em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+  justify-items: center;
+  align-items: center;
+  grid-template-areas:
+    " head head head"
+    "one two three"
+    "img blog1 blog1"
+    "img blog2 blog2"
+    "img blog3 blog3"
+    "res1 res2 res3"
+
+
+
+}
